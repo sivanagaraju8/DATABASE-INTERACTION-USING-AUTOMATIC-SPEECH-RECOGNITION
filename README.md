@@ -91,7 +91,9 @@ Executes Mapped Sql queries, outputs the Data of the respective selected databas
       This feature acts as Google Assistant for this project.
       
 ### Block Diagram 
+ ![Block Diagram](https://github.com/sivanagaraju8/DATABASE-INTERACTION-USING-AUTOMATIC-SPEECH-RECOGNITION/blob/master/Block_Diagram.png)
 
-
+### Video Demonistration
+  * Please check the Video in source files
 # Authors
 * #### Gamidi Siva Nagaraju - [(https://www.linkedin.com/in/siva-nagaraju/)](https://www.linkedin.com/in/siva-nagaraju/)
