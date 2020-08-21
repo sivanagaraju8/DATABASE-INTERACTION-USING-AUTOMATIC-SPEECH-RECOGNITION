@@ -25,7 +25,7 @@ def speak(text):
 
 def connection(status):
     if status:
-        resp=("Yes! your Connection Estabilished .\n"
+        resp=("Yes! your Connection Established .\n"
               "Now go head to explore your data world ! \n")
         print(resp)
         speak(resp)
@@ -41,7 +41,7 @@ def db_connect():
         if db_connection:
             return(db_connection)
         else:
-            # resp="Oh! sorry, something went Wrong! while estabilshing the Connection with Database"
+            # resp="Oh! sorry, something went Wrong! while establishing the Connection with Database"
             # print(resp)
             # speak(resp)
             return(False)
@@ -53,8 +53,8 @@ def query_engine(query):
     
     def show_dbs():
             if 'connect to database'  not in recorded:
-                speak('Please wait ! I am estabilishing secure connection to database !')
-                print('Please wait ! I am estabilishing secure connection to database !')
+                speak('Please wait ! I am establishing secure connection to database !')
+                print('Please wait ! I am establishing secure connection to database !')
                 if db_connect() :
                     recorded.append('connect to database')
                     sce=db_connect()
@@ -168,7 +168,7 @@ def recognize_speech_from_mic(recognizer, microphone):
     Returns a dictionary with three keys:
     "success": a boolean indicating whether or not the API request was
                successful
-    "error":   `None` if no error occured, otherwise a string containing
+    "error":   `None` if no error occurred, otherwise a string containing
                an error message if the API could not be reached or
                speech was unrecognizable
     "transcription": `None` if speech could not be transcribed,
@@ -213,7 +213,7 @@ def recognize_speech_from_mic(recognizer, microphone):
 instructions = (
         "Hi There! I am your Database Interaction Voice Assistant:\n"
         
-        "I love to help you to get the data avaliable in Database storages.\n"
+        "I love to help you to get the data available in Database storages.\n"
         "I'm pleased to say, You can check the following example instructions.\n "
     )
 
